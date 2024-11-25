@@ -1,29 +1,13 @@
-# Atividade 21/11/2024
+# React Components 
+Inicialmente, baixe e extraia o arquivo images.zip fornecido. Em seguida, abra uma pasta assets na pasta pública do seu projeto React e transfira a pasta de imagens para o diretório public/assets. Essas imagens serão empregadas para mostrar os pratos no elemento de menu
 
-**passo a passo**
+Crie uma nova pasta chamada components na pasta src. Depois, adicione um arquivo a essa pasta, No MenuComponent.js. Este componente será encarregado de apresentar dinamicamente a lista de pratos, utilizando informações como nome, descrição e imagem de cada prato
 
-# configurando o react para usar o reactstrap
--npm install reactstrap react react-dom
--npm install --save bootstrap
--npm install react-popper @popperjs/core
+Depois de desenvolver o componente de menu, acesse o arquivo App.js e insira o MenuComponent nele. Em seguida adicione o componente ao JSX, de modo que o menu seja apresentado na interface do aplicativo
 
-## usar o bootstrap
+Abra o arquivo App.css e apague qualquer conteúdo já presente, já que este exercício não requer estilos personalizados no momento
 
-**abrir o index.js**
-**adicionar as linha do index a seguinte importação**
-- import 'bootstrap/dist/css/bootstrap.min.css';
-
-## adicionando barra de notificação 
-
-- # abrir o app.js
-**adicionar as seguinte linhas**
-- import { Navbar, NavbarBrand } from 'reactstrap';
-- após isso alterado o </div > ALUNO: </div> com seu nome.
-- **atualizar repositorio**
-
-![alt text](image.png)
+Após realizar todas as alterações no código, salve as mudanças e faça um commit no Git com a seguinte mensagem: "Components Part 1"
 
 
-1. Clone o repositório:
 
-   git clone https://github.com/WHenrique77/aula7
